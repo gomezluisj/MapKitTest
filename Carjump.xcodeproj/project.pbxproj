@@ -15,6 +15,8 @@
 		04F045E71B5EA05F00A6AAA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F045E61B5EA05F00A6AAA8 /* Images.xcassets */; };
 		04F045EA1B5EA05F00A6AAA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F045E81B5EA05F00A6AAA8 /* LaunchScreen.xib */; };
 		04F045F61B5EA05F00A6AAA8 /* CarjumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F045F51B5EA05F00A6AAA8 /* CarjumpTests.m */; };
+		04F046001B5EA91000A6AAA8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F045FF1B5EA91000A6AAA8 /* MapKit.framework */; };
+		04F046061B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F046051B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		04F045EF1B5EA05F00A6AAA8 /* CarjumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarjumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F045F41B5EA05F00A6AAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F045F51B5EA05F00A6AAA8 /* CarjumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarjumpTests.m; sourceTree = "<group>"; };
+		04F045FF1B5EA91000A6AAA8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04F046041B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		04F046051B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F046001B5EA91000A6AAA8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +71,7 @@
 		04F045CA1B5EA05F00A6AAA8 = {
 			isa = PBXGroup;
 			children = (
+				04F045FF1B5EA91000A6AAA8 /* MapKit.framework */,
 				04F045D51B5EA05F00A6AAA8 /* Carjump */,
 				04F045F21B5EA05F00A6AAA8 /* CarjumpTests */,
 				04F045D41B5EA05F00A6AAA8 /* Products */,
@@ -92,6 +99,8 @@
 				04F045E81B5EA05F00A6AAA8 /* LaunchScreen.xib */,
 				04F045DD1B5EA05F00A6AAA8 /* Carjump.xcdatamodeld */,
 				04F045D61B5EA05F00A6AAA8 /* Supporting Files */,
+				04F046041B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.h */,
+				04F046051B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.m */,
 			);
 			path = Carjump;
 			sourceTree = "<group>";
@@ -222,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F046061B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.m in Sources */,
 				04F045DC1B5EA05F00A6AAA8 /* AppDelegate.m in Sources */,
 				04F045D91B5EA05F00A6AAA8 /* main.m in Sources */,
 				04F045E21B5EA05F00A6AAA8 /* ViewController.m in Sources */,
