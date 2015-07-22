@@ -17,6 +17,8 @@
 		04F045F61B5EA05F00A6AAA8 /* CarjumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F045F51B5EA05F00A6AAA8 /* CarjumpTests.m */; };
 		04F046001B5EA91000A6AAA8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F045FF1B5EA91000A6AAA8 /* MapKit.framework */; };
 		04F046061B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F046051B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.m */; };
+		04F0461F1B6024A800A6AAA8 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0461E1B6024A800A6AAA8 /* CustomAnnotation.m */; };
+		3FF3ACE72FD1C3F5FD3C08A7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA122823248E51F503CFB6E9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040B6ABA773B74D39CC281DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		04F045D31B5EA05F00A6AAA8 /* Carjump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carjump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F045D71B5EA05F00A6AAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F045D81B5EA05F00A6AAA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +50,10 @@
 		04F045FF1B5EA91000A6AAA8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		04F046041B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
 		04F046051B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		04F0461D1B6024A800A6AAA8 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		04F0461E1B6024A800A6AAA8 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		106D36D0617F5A417E0B7711 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FA122823248E51F503CFB6E9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +62,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F046001B5EA91000A6AAA8 /* MapKit.framework in Frameworks */,
+				3FF3ACE72FD1C3F5FD3C08A7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +83,8 @@
 				04F045D51B5EA05F00A6AAA8 /* Carjump */,
 				04F045F21B5EA05F00A6AAA8 /* CarjumpTests */,
 				04F045D41B5EA05F00A6AAA8 /* Products */,
+				519932E38F9899BD0D98AAF4 /* Pods */,
+				62EFD632B68B7191A9A89F02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +111,8 @@
 				04F045D61B5EA05F00A6AAA8 /* Supporting Files */,
 				04F046041B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.h */,
 				04F046051B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.m */,
+				04F0461D1B6024A800A6AAA8 /* CustomAnnotation.h */,
+				04F0461E1B6024A800A6AAA8 /* CustomAnnotation.m */,
 			);
 			path = Carjump;
 			sourceTree = "<group>";
@@ -131,6 +143,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		519932E38F9899BD0D98AAF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				106D36D0617F5A417E0B7711 /* Pods.debug.xcconfig */,
+				040B6ABA773B74D39CC281DE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62EFD632B68B7191A9A89F02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA122823248E51F503CFB6E9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F045F91B5EA05F00A6AAA8 /* Build configuration list for PBXNativeTarget "Carjump" */;
 			buildPhases = (
+				7A6AE8A46349B177684C7506 /* Check Pods Manifest.lock */,
 				04F045CF1B5EA05F00A6AAA8 /* Sources */,
 				04F045D01B5EA05F00A6AAA8 /* Frameworks */,
 				04F045D11B5EA05F00A6AAA8 /* Resources */,
+				EAFE9F8667B75BBCF5B2783C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +257,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A6AE8A46349B177684C7506 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFE9F8667B75BBCF5B2783C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04F045CF1B5EA05F00A6AAA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -234,6 +298,7 @@
 				04F046061B5EBF7900A6AAA8 /* MKMapView+ZoomLevel.m in Sources */,
 				04F045DC1B5EA05F00A6AAA8 /* AppDelegate.m in Sources */,
 				04F045D91B5EA05F00A6AAA8 /* main.m in Sources */,
+				04F0461F1B6024A800A6AAA8 /* CustomAnnotation.m in Sources */,
 				04F045E21B5EA05F00A6AAA8 /* ViewController.m in Sources */,
 				04F045DF1B5EA05F00A6AAA8 /* Carjump.xcdatamodeld in Sources */,
 			);
@@ -361,6 +426,7 @@
 		};
 		04F045FA1B5EA05F00A6AAA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106D36D0617F5A417E0B7711 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Carjump/Info.plist;
@@ -371,6 +437,7 @@
 		};
 		04F045FB1B5EA05F00A6AAA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040B6ABA773B74D39CC281DE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Carjump/Info.plist;
@@ -432,6 +499,7 @@
 				04F045FB1B5EA05F00A6AAA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F045FC1B5EA05F00A6AAA8 /* Build configuration list for PBXNativeTarget "CarjumpTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +508,7 @@
 				04F045FE1B5EA05F00A6AAA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
